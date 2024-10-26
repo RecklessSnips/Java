@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<characters>
+    <character>
+        <jedi>
+            <name>Ahsoka</name>
+            <age>14</age>
+            <master>Anakin</master>
+        </jedi>
+
+        <jedi>
+            <name>Anakin</name>
+            <age>19</age>
+            <master>Obiwan</master>
+        </jedi>
+
+        <jedi>
+            <name>Obiwan</name>
+            <age>25</age>
+            <master>Qui Gon</master>
+        </jedi>
+    </character>
+</characters>
