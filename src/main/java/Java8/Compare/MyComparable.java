@@ -9,6 +9,7 @@ public class MyComparable{
     /*
 
     Comparable 使用：
+    注意：是调用对象和被比较对象来比
     需要被排序的类本身来实现Comparable接口，再通过sort方法来调用
         1. 像String，包装类实现了Comparable接口，重写了 compareTo 方法
         2. this.compareTo(Object obj)

@@ -7,6 +7,8 @@ import java.util.Arrays;
 public class MyComparator {
 
     /*
+    定制排序
+    注意：是两个object根据自定义规则直接来比
     1. 当元素类型没有实现 Comparable 接口但是不方便修改代码；或者不适合当前操作，可以考虑 Comparator
     2. 重写 compare(Object o1, Object o2) 方法, 比较 o1, o2
      */

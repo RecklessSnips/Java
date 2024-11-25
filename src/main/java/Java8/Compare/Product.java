@@ -1,7 +1,9 @@
 package Java8.Compare;
 
 public class Product implements Comparable<Product>{
-
+    /*
+    自然排序
+     */
     private String name;
     private double price;
 
