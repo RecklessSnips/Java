@@ -123,7 +123,7 @@ public class MySet {
             实现定制排序
             根据姓名首字母
         */
-        Set set = new TreeSet(
+        Set<User> set = new TreeSet<>(
                 (Object u1, Object u2) -> {
                     return ((User)u1).getName().compareTo(((User)u2).getName());
                 }
